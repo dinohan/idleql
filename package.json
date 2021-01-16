@@ -2,12 +2,14 @@
   "name": "idleql",
   "version": "1.0.0",
   "description": "g-idle graphql API",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/dinohan/idleql",
   "author": "dinohan",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --exec babel-node index.js"
+    "dev": "nodemon --exec babel-node src/index.js",
+    "prebuild": "cp src/graphql/schema.graphql build/graphql",
+    "build": "babel src -d build"
   },
   "dependencies": {
     "graphql-yoga": "^1.18.3"
