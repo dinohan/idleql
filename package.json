@@ -4,7 +4,7 @@
   "description": "g-idle graphql API",
   "main": "index.js",
   "repository": "https://github.com/dinohan/idleql",
-  "author": "dinoha",
+  "author": "dinohan",
   "license": "MIT",
   "scripts": {
     "start": "nodemon --exec babel-node index.js"

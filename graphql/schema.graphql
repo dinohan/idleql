@@ -1,0 +1,19 @@
+type Song {
+  name: String!
+  youtubeID: String!
+  title: Boolean!
+  thumbnail: String!
+  album: String!
+}
+
+type Album {
+  name: String!
+  img: String!
+  type: String!
+}
+
+type Query {
+  albums: [Album]!
+  songs(album: String!): [Song]
+  song(youtubeID: String!): Song
+}
