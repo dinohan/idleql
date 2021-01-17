@@ -8,8 +8,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --exec babel-node src/index.js",
-    "prebuild": "cp src/graphql/schema.graphql build/graphql",
-    "build": "babel src -d build"
+    "build": "babel src -d build",
+    "predeploy": "yarn build",
+    "deploy": "cp -r build/* deploy/"
   },
   "dependencies": {
     "graphql-yoga": "^1.18.3"

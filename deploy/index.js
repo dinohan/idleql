@@ -12,7 +12,7 @@ var _typeDefs2 = _interopRequireDefault(_typeDefs);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// for lambda
+// for lambda!!
 var lambda = new _graphqlYoga.GraphQLServerLambda({
   typeDefs: _typeDefs2.default,
   resolvers: _resolvers2.default

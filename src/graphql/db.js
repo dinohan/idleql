@@ -192,41 +192,81 @@ export const albums = [
     name: "I burn",
     img: "https://i.imgur.com/MaJtviQ.jpg",
     type: "mini",
+    release: {
+      year: "2021",
+      month: "1",
+      date: "11",
+    },
   },
   {
     name: "I trust",
     img: "https://i.imgur.com/mOXhDp8.jpg",
     type: "mini",
+    release: {
+      year: "2020",
+      month: "4",
+      date: "6",
+    },
   },
   {
     name: "I made",
     img: "https://i.imgur.com/x3VwXP6.jpg",
     type: "mini",
+    release: {
+      year: "2019",
+      month: "2",
+      date: "26",
+    },
   },
   {
     name: "I am",
     img: "https://i.imgur.com/BAwiwGw.jpg",
     type: "mini",
+    release: {
+      year: "2018",
+      month: "5",
+      date: "2",
+    },
   },
   {
     name: "DUMDi DUMDi",
     img: "https://i.imgur.com/hhbdydl.jpg",
     type: "single",
+    release: {
+      year: "2020",
+      month: "8",
+      date: "3",
+    },
   },
   {
     name: "i'M THE TREND",
     img: "https://i.imgur.com/U4eLuYU.jpg",
     type: "single",
+    release: {
+      year: "2020",
+      month: "7",
+      date: "7",
+    },
   },
   {
     name: "Uh-Oh",
     img: "https://i.imgur.com/ziT2Zl3.jpg",
     type: "single",
+    release: {
+      year: "2019",
+      month: "6",
+      date: "26",
+    },
   },
   {
     name: "한(一)",
     img: "https://i.imgur.com/6ISk4m2.jpg",
     type: "single",
+    release: {
+      year: "2018",
+      month: "8",
+      date: "14",
+    },
   },
 ];
 

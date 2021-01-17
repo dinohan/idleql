@@ -1,0 +1,11 @@
+{
+  "name": "lambdaql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}
