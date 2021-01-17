@@ -185,6 +185,90 @@ export const songs = [
     thumbnail: "https://i.imgur.com/CDr57eB.jpg",
     album: "한(一)",
   },
+  /* {
+    name: "Oh my god",
+    youtubeID: "u7wSlAgEcvg",
+    title: true,
+    thumbnail: "",
+    album: "Oh my god (JP)",
+  }, */
+  {
+    name: "THE BADDEST",
+    youtubeID: "RkID8_gnTxw",
+    title: false,
+    thumbnail: "https://i.imgur.com/q8Np6Zi.jpg",
+    album: "ALL OUT",
+  },
+  {
+    name: "MORE",
+    youtubeID: "3VTkBuxU4yk",
+    title: true,
+    thumbnail: "https://i.imgur.com/3ZkC6ym.jpg",
+    album: "ALL OUT",
+  },
+  {
+    name: "Show",
+    youtubeID: "smqyRBYCbl0",
+    title: true,
+    thumbnail: "https://i.imgur.com/u1Ywze8.jpg",
+    album: "투유프로젝트: 슈가맨 3",
+  },
+  {
+    name: "LATATA",
+    youtubeID: "Knz0j_G7lKg",
+    title: false,
+    thumbnail: "https://i.imgur.com/2oh40VQ.jpg",
+    album: "컴백전쟁: 퀸덤",
+  },
+  {
+    name: "instagram",
+    youtubeID: "KDEUlgyvX8o",
+    title: false,
+    thumbnail: "https://i.imgur.com/2oh40VQ.jpg",
+    album: "컴백전쟁: 퀸덤",
+  },
+  {
+    name: "Senorita+POWER",
+    youtubeID: "Ba6DV5UH8vk",
+    title: false,
+    thumbnail: "https://i.imgur.com/2oh40VQ.jpg",
+    album: "컴백전쟁: 퀸덤",
+  },
+  {
+    name: "싫다고 말해 (Nightmare Version)",
+    youtubeID: "TorT6Rgl-Kc",
+    title: false,
+    thumbnail: "https://i.imgur.com/2oh40VQ.jpg",
+    album: "컴백전쟁: 퀸덤",
+  },
+  {
+    name: "LION",
+    youtubeID: "2KtFPjSp3og",
+    title: true,
+    thumbnail: "https://i.imgur.com/2oh40VQ.jpg",
+    album: "컴백전쟁: 퀸덤",
+  },
+  {
+    name: "Help Me",
+    youtubeID: "AkcCCaDUyaU",
+    title: true,
+    thumbnail: "https://i.imgur.com/ENkyTXp.jpg",
+    album: "그녀의 사생활 OST",
+  },
+  {
+    name: "달려! (Relay)",
+    youtubeID: "Ha2n1QgYMXs",
+    title: true,
+    thumbnail: "https://i.imgur.com/hSmzXTp.jpg",
+    album: "달려!",
+  },
+  {
+    name: "POP/STARS",
+    youtubeID: "UOxkGD8qRB4",
+    title: true,
+    thumbnail: "https://i.imgur.com/JgGJpQ4.jpg",
+    album: "POP/STARS",
+  },
 ];
 
 export const albums = [
@@ -268,6 +352,76 @@ export const albums = [
       date: "14",
     },
   },
+  {
+    name: "ALL OUT",
+    img: "https://i.imgur.com/74f5drh.jpg",
+    type: "part",
+    release: {
+      year: "2020",
+      month: "11",
+      date: "6",
+    },
+  },
+  {
+    name: "투유프로젝트: 슈가맨 3",
+    img: "https://i.imgur.com/9J3P1Q8.jpg",
+    type: "part",
+    release: {
+      year: "2020",
+      month: "2",
+      date: "1",
+    },
+  },
+  {
+    name: "컴백전쟁: 퀸덤",
+    img: "https://i.imgur.com/N75dHcU.jpg",
+    type: "part",
+    release: {
+      year: "2019",
+      month: "",
+      date: "",
+    },
+  },
+  {
+    name: "그녀의 사생활 OST",
+    img: "https://i.imgur.com/dqXrHUG.jpg",
+    type: "part",
+    release: {
+      year: "2019",
+      month: "4",
+      date: "11",
+    },
+  },
+  {
+    name: "달려!",
+    img: "https://i.imgur.com/tVtYPe1.jpg",
+    type: "part",
+    release: {
+      year: "2018",
+      month: "11",
+      date: "19",
+    },
+  },
+  {
+    name: "POP/STARS",
+    img: "https://i.imgur.com/4lmWpRN.jpg",
+    type: "part",
+    release: {
+      year: "2018",
+      month: "11",
+      date: "4",
+    },
+  },
+  /* {
+    name: "ONE",
+    img: "https://i.imgur.com/Lb3FL2T.jpg",
+    type: "part",
+    release: {
+      year: "2018",
+      month: "6",
+      date: "7",
+    }, 
+  },*/
 ];
 
 export const getSong = (youtubeID) =>
