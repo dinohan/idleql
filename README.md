@@ -1,6 +1,6 @@
 # idleql
 
-g-idle graphql server
+[idle](https://github.com/dinohan/idle)'s graphql server
 
 ```js
 type Query {
