@@ -22,6 +22,7 @@ const typeDefs = `
   
   type Query {
     albums: [Album]!
+    album(albumName: String!): Album!
     songs(album: String!): [Song]
     song(youtubeID: String!): Song
   }

@@ -215,7 +215,7 @@ export const songs = [
   },
   {
     name: "LATATA",
-    youtubeID: "Knz0j_G7lKg",
+    youtubeID: "BFr4BefEw7U",
     title: false,
     thumbnail: "https://i.imgur.com/2oh40VQ.jpg",
     album: "컴백전쟁: 퀸덤",
@@ -424,6 +424,8 @@ export const albums = [
   },*/
 ];
 
+export const getAlbum = (albumName) =>
+  albums.find((album) => album.name === albumName);
 export const getSong = (youtubeID) =>
   songs.find((song) => song.youtubeID === youtubeID);
 export const getSongs = (album) => songs.filter((song) => song.album === album);
